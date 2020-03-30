@@ -1,8 +1,7 @@
-# Backend-
-Backend-
+# Frontend-
+Frontend-
 
-El API REST de esta plataforma esta construido bajo la plataforma nodejs.
-Se usa express como framwork.
+Uso de ReactJS
 
 # Enviar pull Request
 Pasos para enviar tu pull request:
@@ -16,7 +15,9 @@ Pasos para enviar tu pull request:
 - Solictar un merge al proyecto original
 
 # Normas de contribución
-- Uso de EMAC6
+
+- Uso de EMAC6+
+
 - Solo se hace uso de 1 clase por archivo
 - Maximo de lineas de una clase es de 500 lineas
 - Los metodos llevan nombres de verbos
