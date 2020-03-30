@@ -1,0 +1,19 @@
+{
+  "name": "gentem",
+  "version": "1.0.0",
+  "description": "we help",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maticaba99/Frontend-.git"
+  },
+  "author": "gentem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maticaba99/Frontend-/issues"
+  },
+  "homepage": "https://github.com/Maticaba99/Frontend-#readme"
+}
