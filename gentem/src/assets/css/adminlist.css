@@ -1,0 +1,59 @@
+/* Nuevo Admin  */
+
+.addNew{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+.addNew__button button{
+    font-family: 'Muli', sans-serif;
+    background-color: #eeeeee;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    color: #9b9999;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+/* FIN Nuevo Admin  */
+
+
+/* FOOTER */
+
+.footer__ong{
+    background-color: #f7f7f7;
+    color: #a1a0a0;
+}
+.footer__admin{
+    border-top: 2px solid #a0a0a0;
+    border-bottom: 2px solid #a0a0a0;
+    border-right: 2px solid white !important;
+    background-color: white;
+}
+
+/* FIN FOOTER */
+@media screen and (max-width: 720px){
+    .footer__admin{
+        border-left: none;
+        border-top: none;
+    }
+    .footer__admin{
+        border-top: 2px solid #b1afaf;
+    }
+    .footer__ong{
+        border-top: none;
+    }
+}
+@media screen and (min-width: 720px){
+    .footer__ong p{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 1152px){
+    .grid{
+        grid-template-columns: 3fr repeat(2, 1fr) ;
+    }
+}

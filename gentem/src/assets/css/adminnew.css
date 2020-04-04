@@ -1,0 +1,89 @@
+/* SEARCH */
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    height: 10vh;
+    font-weight: 600;
+    color: rgb(97, 97, 97);
+    font-size: 20px;
+}
+
+/* FIN SEARCH */
+
+/* FIELD */
+.field{
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    width: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1 / 10;
+    grid-template-rows: repeat(3, 25px );
+    font-size: 12px;
+}
+.field__text--input input{
+    border-radius: 6px;
+    height: 40px;
+    border: 2px solid #eeeeee;
+    font-weight: 500;
+    color: #adaaaa;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+
+/* FIN FIELD */
+
+/* Nuevo Admin  */
+
+.addNew{
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.addNew__button button{
+    font-family: 'Muli', sans-serif;
+    background-color: #eeeeee;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    color: #9b9999;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+
+/* FIN Nuevo Admin  */
+
+
+@media screen and (min-width: 720px){
+.search{
+    padding: 10px 40px 10px 40px;
+}
+.field{
+    padding: 10px 40px 10px 40px;
+}
+.addNew{
+    padding: 10px 40px 10px 40px;
+}
+}
+@media screen and (max-width: 425px){
+    .field__text--input input{
+        width: 90%;
+    }
+    .addNew{
+        justify-content: flex-end;
+    }
+}
