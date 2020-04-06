@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
-import '../assets/css/style.css';
-import '../assets/css/onglist.css';
-// import '../assets/css/adminlist.css';
-import '../assets/css/adminnew.css';
-import '../assets/css/list.css';
-import Header from './Header';
-import OngGrid from './OngGrid';
-import OngAdminButton from './OngAdminButton';
+import Header from '../components/Header';
+import OngGrid from '../components/OngList/OngGrid';
+import ChooseOng from '../components/OngList/ChooseOng';
 
 
 class OngList extends Component {
@@ -26,7 +21,7 @@ class OngList extends Component {
                 <OngGrid
                 
                 />
-                <OngAdminButton
+                <ChooseOng
                 
                 />
             </div>

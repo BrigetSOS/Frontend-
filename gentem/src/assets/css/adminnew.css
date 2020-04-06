@@ -1,5 +1,5 @@
-/* SEARCH */
-.search{
+/* NEWADMIN */
+.newAdmin{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,7 @@
     font-size: 20px;
 }
 
-/* FIN SEARCH */
+/* FIN NEWADMIN */
 
 /* FIELD */
 .field{
@@ -23,7 +23,7 @@ form{
     width: 100%;
 }
 
-.grid{
+.field__grid{
     display: grid;
     grid-template-columns: 1 / 10;
     grid-template-rows: repeat(3, 25px );
@@ -44,7 +44,7 @@ form{
 
 /* Nuevo Admin  */
 
-.addNew{
+.addNewAdm{
     padding: 10px 20px 10px 20px;
     display: flex;
     justify-content: flex-start;
@@ -52,7 +52,7 @@ form{
 }
 
 
-.addNew__button button{
+.addNewAdm__button button{
     font-family: 'Muli', sans-serif;
     background-color: #eeeeee;
     width: 130px;
@@ -69,13 +69,13 @@ form{
 
 
 @media screen and (min-width: 720px){
-.search{
+.newAdmin{
     padding: 10px 40px 10px 40px;
 }
 .field{
     padding: 10px 40px 10px 40px;
 }
-.addNew{
+.addNewAdm{
     padding: 10px 40px 10px 40px;
 }
 }
@@ -83,7 +83,7 @@ form{
     .field__text--input input{
         width: 90%;
     }
-    .addNew{
+    .addNewAdm{
         justify-content: flex-end;
     }
 }
