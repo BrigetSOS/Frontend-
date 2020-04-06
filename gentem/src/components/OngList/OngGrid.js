@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Search from '../assets/images/search.svg';
+import Search from '../../assets/images/search.svg';
 
 class OngGrid extends Component {
     // constructor(props) {
