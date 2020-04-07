@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    NavLink
-  } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 
 class ChooseAdmin extends Component {
@@ -15,8 +9,8 @@ class ChooseAdmin extends Component {
     // }
     render() { 
         return ( 
-            <footer class="footer">
-                <div class="footer__ong adminactive">
+            <footer className="footer">
+                <div className="footer__ong adminactive">
                     
                     <p>
                         <NavLink to='/onglist'>
@@ -24,8 +18,8 @@ class ChooseAdmin extends Component {
                         </NavLink>
                     </p>
                 </div>
-                <div class="footer__admin adminactive">
-                    <span class="adminbl-2"></span>
+                <div className="footer__admin adminactive">
+                    <span className="adminbl-2"></span>
                     <p>
                         <NavLink to='/adminlist'>
                             Admins

@@ -8,105 +8,103 @@ class OngGrid extends Component {
     // }
     render() { 
         return ( 
-            <section class="flex2">
-            <section class="search wd">
-                <div class="search__title">
+            <section className="flex2">
+            <section className="search wd">
+                <div className="search__title">
                     <p>ONGs</p>
                 </div>
-                <div class="search__input">
-                        <input class="input" type="text" placeholder="Buscar ONG" />
+                <div className="search__input">
+                        <input className="input" type="text" placeholder="Buscar ONG" />
                         <img src={Search} alt="Buscador" />
                 </div>
             </section>
-            <section class="list">
-                    <div class="grid">
-                        <div class="list__text--name">
+            <section className="list">
+                    <div className="grid">
+                        <div className="list__text--name">
                             <p>Nombre</p>
                         </div>
-                        <div class="list__text--email">
+                        <div className="list__text--email">
                             <p>Email</p>
                         </div>
-                        <div class="list__text--status">
+                        <div className="list__text--status">
                             <p>Estado</p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Editar</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Borrar</p>
                         </div>
                     </div>
-                    <div class="grid pt-2">
-                        <div class="list__text--name size ">
+                    <div className="grid pt-2">
+                        <div className="list__text--name size ">
                             <p>Nombre ONG</p>
                         </div>
-                        <div class="list__text--email size">
+                        <div className="list__text--email size">
                             <p>yolanda.holmes@msn.com</p>
                         </div>
-                        <div class="list__text--status">
+                        <div className="list__text--status">
                             <p>Borrador</p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Icono</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Icono</p>
                         </div>
                     </div>    
-                    <div class="grid pt-2">
+                    <div className="grid pt-2">
 
-                        <div class="list__text--name size">
+                        <div className="list__text--name size">
                             <p>Nombre ONG</p>
                         </div>
-                        <div class="list__text--email size">
+                        <div className="list__text--email size">
                             <p>becky.mullins@outlook.com</p>
                         </div>
-                        <div class="list__text--status true">
-                            <p>
-                            <div class="list__text--status true">
-                                <input type="checkbox" name="switch-button" id="switch-label" class="list__status--checkbox" />
-                                <label for="switch-label" class="list__status--label"></label>
+                        <div className="list__text--status true">
+                            <div className="list__text--status true">
+                                <input type="checkbox" name="switch-button" id="switch-label" className="list__status--checkbox" />
+                                <label htmlFor="switch-label" className="list__status--label"></label>
                             </div>
-                            </p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Icono</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Icono</p>
                         </div>
                     </div> 
-                    <div class="grid pt-2">
-                        <div class="list__text--name size">
+                    <div className="grid pt-2">
+                        <div className="list__text--name size">
                             <p>Nombre ONG</p>
                         </div>
-                        <div class="list__text--email size">
+                        <div className="list__text--email size">
                             <p>dorothy.martin@aol.com</p>
                         </div>
-                        <div class="list__text--status">
+                        <div className="list__text--status">
                             <p>Borrador</p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Icono</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Icono</p>
                         </div>
                     </div> 
-                    <div class="grid pt-2">
-                        <div class="list__text--name size">
+                    <div className="grid pt-2">
+                        <div className="list__text--name size">
                             <p>Nombre ONG</p>
                         </div>
-                        <div class="list__text--email size">
+                        <div className="list__text--email size">
                             <p>paula.butler@gmail.com</p>
                         </div>
-                        <div class="list__text--status">
+                        <div className="list__text--status">
                             <p>Borrador</p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Icono</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Icono</p>
                         </div>
                     </div>   

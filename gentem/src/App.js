@@ -9,15 +9,16 @@ import {
 import AdminList from './routes/AdminList';
 import OngList from './routes/OngList';
 import AdminNew from './routes/AdminNew';
-import Style from './assets/css/style.css';
-import ListCss from './assets/css/list.css';
-import OngListCss from './assets/css/onglist.css'
-import AdminListCss from './assets/css/adminlist.css'
-import AdminNewCss from './assets/css/adminnew.css'
+import './assets/css/style.css';
+import './assets/css/list.css';
+import './assets/css/onglist.css'
+import './assets/css/adminlist.css'
+import './assets/css/adminnew.css'
 
 
 
 function App() {
+
   return (
     <Router>
       <div className="App">
@@ -39,17 +40,14 @@ function App() {
         <Switch >
           <Route path='/onglist'>
             <OngList 
-            className={Style, ListCss, OngListCss}
             />
           </Route>
           <Route path='/adminlist'>
             <AdminList
-            className={Style, ListCss, AdminListCss}
             />
           </Route>
           <Route path='/adminnew'>
             <AdminNew
-            className={Style, AdminNewCss}
             />
           </Route>
           <Route path='/'>

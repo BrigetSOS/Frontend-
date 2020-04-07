@@ -8,8 +8,8 @@ class NewAdmin extends Component {
     render() { 
         return ( 
     <React.Fragment>
-        <section class="newAdmin">
-            <div class="newAdmin__title">
+        <section className="newAdmin">
+            <div className="newAdmin__title">
                 <p>Crear admin</p>
             </div>
         </section>
