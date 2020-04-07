@@ -1,113 +1,221 @@
 import React, { Component } from 'react';
 import Search from '../../assets/images/search.svg';
+  
+// let ArrayNames = [
+//     {
+//     name: 'Juan',
+//     mail: 'hola@juan.com',
+//     estado: '',
+//     editar: 'Icono',
+//     borrar: 'Icono'
+//     },
+//     {
+//     name: 'Marcos',
+//     mail: 'hola@marcos.com',
+//     estado: '',
+//     editar: 'Icono',
+//     borrar: 'Icono'
+//     },
+//     {
+//     name: 'Ivan',
+//     mail: 'hola@ivan.com',
+//     estado: '',
+//     editar: 'Icono',
+//     borrar: 'Icono'
+//     }
+// ];
+
+// let elemento; 
+
+// let klemente =  ArrayNames.forEach((props) => {
+//     let names = props.name;
+//     let mail = props.mail;
+//     let estado = props.estado;
+//     let editar = props.editar;
+//     let borrar = props.borrar;
+//  elemento =  <div className="grid pt-2">
+//             <div className="list__text--name size">
+//                 <p>{names}</p>
+//             </div>
+//             <div className="list__text--email size">
+//                 <p>{mail}</p>
+//             </div>
+//             <div className="list__text--status">                     
+//                 <p>{estado}</p>
+//             </div>
+//             <div className="list__text--edit">
+//                 <p>{editar}</p>
+//             </div>
+//             <div className="list__text--delete">
+//                 <p>{borrar}</p>
+//             </div>
+//         </div>
+// });
+
+const proxy = 'http://cors-anywhere.herokuapp.com/';
+const API = `${proxy}http://starlord.hackerearth.com/books`;
+fetch(API)
+    .then(response => {
+        return response.json()
+    })
+    .then(response => {
+        console.log(response)
+    })  
+    .catch(err => console.error(err))
 
 class AdminGrid extends Component {
     // constructor(props) {
     //     super(props);
     //     this.state = {  }
     // }
+    
+
+
+    // componentDidMount(){
+    //     fetch('http://localhost:3003/admin/list')
+    //       .then(response => {
+    //         return response.json();
+    //       })
+    //       .then(response => {
+    //         console.log(response)
+    //       })  
+    //       .catch(err => console.error(err))
+    //   }
+      
+
     render() { 
-        return ( 
-            <section class="flex2">
-            <section class="search wd">
-                <div class="search__title">
+        
+        
+        // function Comment(props) {
+        //     for (let i = 0; i < props.length; i++) {
+        //         console.log(props.length);
+        //     return ( 
+        //         (<div className="grid pt-2">
+        //             <div className="list__text--name size">
+        //                 <p>{props[i].name}</p>
+        //             </div>
+        //             <div className="list__text--email size">
+        //                 <p>{props[i].mail}</p>
+        //             </div>
+        //             <div className="list__text--status">                     
+        //                 <p>{props[i].estado}</p>
+        //             </div>
+        //             <div className="list__text--edit">
+        //                 <p>{props[i].editar}</p>
+        //             </div>
+        //             <div className="list__text--delete">
+        //                 <p>{props[i].borrar}</p>
+        //             </div>
+        //         </div>)
+        //     );
+        //   }   }
+      
+
+        return (
+            <section className="flex2">
+            <section className="search wd">
+                <div className="search__title">
                     <p>Admins</p>
                 </div>
-                <div class="search__input">
-                        <input class="input" type="text" placeholder="Buscar admin" />
+                <div className="search__input">
+                        <input className="input" type="text" placeholder="Buscar admin" />
                         <img src={Search} alt="Buscador" />
                 </div>
             </section>
-            <section class="list">
-                    <div class="grid">
-                        <div class="list__text--name">
+            <section className="list">
+                    <div className="grid">
+                        <div className="list__text--name">
                             <p>Nombre</p>
                         </div>
-                        <div class="list__text--email">
+                        <div className="list__text--email">
                             <p>Email</p>
                         </div>
-                        <div class="list__text--status">
+                        <div className="list__text--status">
                             <p></p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Editar</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Borrar</p>
                         </div>
                     </div>
-                    <div class="grid pt-2">
-                        <div class="list__text--name size">
+                    
+                    {/* {elemento} */}
+            {/* {Comment(ArrayNames)} */}
+                 
+                    <div className="grid pt-2">
+                        <div className="list__text--name size">
                             <p>Andres</p>
                         </div>
-                        <div class="list__text--email size">
+                        <div className="list__text--email size">
                             <p>andres@msn.com</p>
                         </div>
-                        <div class="list__text--status">
+                        <div className="list__text--status">                     
                             <p></p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Icono</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Icono</p>
                         </div>
                     </div>    
-                    <div class="grid pt-2">
+                    <div className="grid pt-2">
 
-                        <div class="list__text--name size">
+                        <div className="list__text--name size">
                             <p>Cristian</p>
                         </div>
-                        <div class="list__text--email size">
+                        <div className="list__text--email size">
                             <p>cristian@msn.com</p>
                         </div>
-                        <div class="list__text--status">
+                        <div className="list__text--status">
                             <p></p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Icono</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Icono</p>
                         </div>
                     </div> 
-                    <div class="grid pt-2">
-                        <div class="list__text--name size">
+                    <div className="grid pt-2">
+                        <div className="list__text--name size">
                             <p>Jaime</p>
                         </div>
-                        <div class="list__text--email size">
+                        <div className="list__text--email size">
                             <p>jaime@msn.com</p>
                         </div>
-                        <div class="list__text--status">
+                        <div className="list__text--status">
                             <p></p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Icono</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Icono</p>
                         </div>
                     </div> 
-                    <div class="grid pt-2">
-                        <div class="list__text--name size">
+                    <div className="grid pt-2">
+                        <div className="list__text--name size">
                             <p>Mar</p>
                         </div>
-                        <div class="list__text--email size">
+                        <div className="list__text--email size">
                             <p>mar@msn.com</p>
                         </div>
-                        <div class="list__text--status">
+                        <div className="list__text--status">
                             <p></p>
                         </div>
-                        <div class="list__text--edit">
+                        <div className="list__text--edit">
                             <p>Icono</p>
                         </div>
-                        <div class="list__text--delete">
+                        <div className="list__text--delete">
                             <p>Icono</p>
                         </div>
                     </div>        
             </section>
-            <section class="addNew wd">
-                    <div class="addNew__button">
+            <section className="addNew wd">
+                    <div className="addNew__button">
                         <button >NUEVO ADMIN</button>
                     </div>
             </section>

@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    NavLink
-  } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 class ChooseOng extends Component {
     // constructor(props) {
@@ -14,16 +8,16 @@ class ChooseOng extends Component {
     // }
     render() { 
         return ( 
-            <footer class="footer">
-                <div class="footer__ong ongactive">
-                    <span class="ongbl-2"></span>
+            <footer className="footer">
+                <div className="footer__ong ongactive">
+                    <span className="ongbl-2"></span>
                     <p>
                         <NavLink to='/onglist'>
                             ONGs
                         </NavLink>
                     </p>
                 </div>
-                <div class="footer__admin ongactive">
+                <div className="footer__admin ongactive">
                     <p>
                         <NavLink to='/adminlist'>
                             Admins
