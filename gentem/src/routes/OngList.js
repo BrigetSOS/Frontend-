@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
-import OngGrid from '../components/OngList/OngGrid';
-import ChooseOng from '../components/OngList/ChooseOng';
+import Header from '../components/SuperAdmin/Header';
+import OngGrid from '../components/SuperAdmin/OngList/OngGrid';
+import Choose from '../components/SuperAdmin/Choose';
+import '../assets/css/style.css';
+import '../assets/css/list.css';
+import '../assets/css/onglist.css'
 
 
 class OngList extends Component {
@@ -21,7 +24,7 @@ class OngList extends Component {
                 <OngGrid
                 
                 />
-                <ChooseOng
+                <Choose
                 
                 />
             </div>

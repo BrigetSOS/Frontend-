@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Bell from '../assets/images/bell.svg';
+import Bell from '../../assets/images/bell.svg';
 
 class Header extends Component {
     // state = {  }

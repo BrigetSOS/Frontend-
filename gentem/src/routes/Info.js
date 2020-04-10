@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Header from '../components/SuperAdmin/Header';
-import AdminGrid from '../components/SuperAdmin/AdminList/AdminGrid';
-import Choose from '../components/SuperAdmin/Choose';
+import ProfileChoose from '../components/OngProfile/ProfileChoose';
+import AccountHeader from '../components/OngProfile/AccountHeader';
+import InfoData from '../components/OngProfile/Info/InfoData';
 import '../assets/css/style.css';
 import '../assets/css/list.css';
-import '../assets/css/adminlist.css'
+import '../assets/css/ongprofile.css';
 
 
-class AdminList extends Component {
+class Info extends Component {
     // constructor(props) {
     //     super(props);
     //     this.state = {  }
@@ -18,16 +18,16 @@ class AdminList extends Component {
         return ( 
                   
             <React.StrictMode>
-                <Header
-            
-                />
-            
+                
+            <AccountHeader 
+            titulo = 'Info'
+            />
             <div className='flex'> 
-                <AdminGrid
+                <InfoData
                 
                 />
-                <Choose
-                
+               <ProfileChoose
+            
                 />
             </div>
            
@@ -37,4 +37,4 @@ class AdminList extends Component {
     }
 }
  
-export default AdminList;
+export default Info;

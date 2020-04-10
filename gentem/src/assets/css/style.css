@@ -3,8 +3,16 @@
     font-family: 'Muli', sans-serif;
 }
 
+html,body{
+    height: 100vh;
+}
+
 .mb-2{
     margin-bottom: 20px;
+}
+
+.NavList a{
+    padding-left: 20px;
 }
 
 /* HEADER */ 

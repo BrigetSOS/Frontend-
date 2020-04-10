@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import NewAdmin from '../components/AdminNew/NewAdmin';
-import AdminForm from '../components/AdminNew/AdminForm';
-import Header from '../components/Header';
+import NewAdmin from '../components/SuperAdmin/AdminNew/NewAdmin';
+import AdminForm from '../components/SuperAdmin/AdminNew/AdminForm';
+import Header from '../components/SuperAdmin/Header';
+import '../assets/css/style.css';
+import '../assets/css/adminnew.css'
+
 
 
 class AdminNew extends Component {

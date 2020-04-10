@@ -9,11 +9,15 @@ import {
 import AdminList from './routes/AdminList';
 import OngList from './routes/OngList';
 import AdminNew from './routes/AdminNew';
-import './assets/css/style.css';
-import './assets/css/list.css';
-import './assets/css/onglist.css'
-import './assets/css/adminlist.css'
-import './assets/css/adminnew.css'
+import Cuenta from './routes/Cuenta';
+import Info from './routes/Info';
+import Donaciones from './routes/Donaciones';
+import RRPP from './routes/RRPP';
+
+
+
+
+
 
 
 
@@ -22,18 +26,30 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div>
+        <div className='NavList'>
           <Link to='/'>
             Inicio
           </Link>
-          <NavLink to='/onglist' activeClassName='ongactive'>
+          <NavLink to='/onglist' activeClassName='activo'>
             Ong List
           </NavLink>
-          <NavLink to='/adminlist' activeClassName='adminactive'>
+          <NavLink to='/adminlist' activeClassName='active'>
             Admin List
           </NavLink>
           <NavLink to='/adminnew' activeClassName='adminnewactive'>
             Admin New
+          </NavLink>
+          <NavLink to='/cuenta'>
+            Cuenta
+          </NavLink>
+          <NavLink to='/info'>
+            Info
+          </NavLink>
+          <NavLink to='/donaciones'>
+            Donaciones
+          </NavLink>
+          <NavLink to='/RRPP'>
+            RRPP
           </NavLink>
         </div>
         <hr/>
@@ -48,6 +64,26 @@ function App() {
           </Route>
           <Route path='/adminnew'>
             <AdminNew
+            />
+          </Route>
+          <Route path='/cuenta'>
+            <Cuenta
+            
+            />
+          </Route>
+          <Route path='/info'>
+            <Info
+            
+            />
+          </Route>
+          <Route path='/donaciones'>
+            <Donaciones
+            
+            />
+          </Route>
+          <Route path='/RRPP'>
+            <RRPP
+            
             />
           </Route>
           <Route path='/'>
