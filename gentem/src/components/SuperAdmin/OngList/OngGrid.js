@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Search from '../../assets/images/search.svg';
+import Search from '../../../assets/images/search.svg';
 
 class OngGrid extends Component {
     // constructor(props) {
@@ -9,11 +9,11 @@ class OngGrid extends Component {
     render() { 
         return ( 
             <section className="flex2">
-            <section className="search wd">
-                <div className="search__title">
+            <section className="hero wd">
+                <div className="hero__title">
                     <p>ONGs</p>
                 </div>
-                <div className="search__input">
+                <div className="hero__input">
                         <input className="input" type="text" placeholder="Buscar ONG" />
                         <img src={Search} alt="Buscador" />
                 </div>

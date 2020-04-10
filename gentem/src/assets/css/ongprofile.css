@@ -1,0 +1,128 @@
+.vh{
+    height: 15vh;
+}
+
+.hero.account .hero__title p{
+    padding-left: 0;
+}
+
+.ongProfile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.ongProfile .ongProfile__Data{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dfdfdf5d;
+
+}
+
+.ongProfile .ongProfile__Data input{
+    border-radius: 6px;
+    height: 40px;
+    border: 2px solid #eeeeee;
+    font-weight: 500;
+    color: #adaaaa;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+
+.ongProfile .ongProfile__Data textarea{
+    resize: none;
+    border-radius: 6px;
+    height: 40px;
+    border: 2px solid #eeeeee;
+    font-weight: 500;
+    color: #adaaaa;
+    font-size: 16px;
+    padding: 20px 25px;
+}
+
+.ongProfile .ongProfile__Data select{
+    border-radius: 6px;
+    height: 40px;
+    border: 2px solid #eeeeee;
+    font-weight: 500;
+    color: #adaaaa;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.ongProfile .ongProfile__button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ongProfile .ongProfile__button input{
+    font-family: 'Muli', sans-serif;
+    background-color: #eeeeee;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    color: #9b9999;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.ongProfile .ongProfile__button2 input{
+    font-family: 'Muli', sans-serif;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    color: #9b9999;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.ongProfile .ongProfile__button2{
+    border-bottom: 1px solid #dfdfdf5d;
+}
+
+.ongProfile__Data--Title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.ongProfile__grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: repeat(1, 20px );
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dfdfdf5d;
+    font-size: 14px;
+
+}
+.ongProfile__grid.title{
+    font-size: 12px;
+}
+.ongProfile__grid--editar, .ongProfile__grid--borrar{
+    justify-self: flex-end;
+}
+.ongProfile__images{
+    display: flex;
+    overflow: scroll;
+}
+.ongProfile__images--container{
+    display: inherit;
+}
+.ongProfile__container--card{
+    padding-right: 20px;
+}
+.ongProfile__card--img{
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    width: 100px;
+}
+.ongProfile__card--details{
+    text-align: center;
+    font-size: 10px;
+}
