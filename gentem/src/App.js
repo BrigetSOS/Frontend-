@@ -6,18 +6,16 @@ import {
   Link,
   NavLink
 } from "react-router-dom";
+import Home from './routes/Home';
 import AdminList from './routes/AdminList';
-import OngList from './routes/OngList';
+import AdminOngList from './routes/AdminOngList';
 import AdminNew from './routes/AdminNew';
 import Cuenta from './routes/Cuenta';
 import Info from './routes/Info';
 import Donaciones from './routes/Donaciones';
 import RRPP from './routes/RRPP';
-
-
-
-
-
+import OngList from './routes/OngList';
+import OngProfile from './routes/OngProfile';
 
 
 
@@ -30,7 +28,7 @@ function App() {
           <Link to='/'>
             Inicio
           </Link>
-          <NavLink to='/onglist' activeClassName='activo'>
+          <NavLink to='/adminonglist' activeClassName='activo'>
             Ong List
           </NavLink>
           <NavLink to='/adminlist' activeClassName='active'>
@@ -51,11 +49,17 @@ function App() {
           <NavLink to='/RRPP'>
             RRPP
           </NavLink>
+          <NavLink to='/onglist'>
+            Lista de ONG
+          </NavLink>
+          <NavLink to='/ongprofile'>
+            Perfil de ONG
+          </NavLink>
         </div>
         <hr/>
         <Switch >
-          <Route path='/onglist'>
-            <OngList 
+          <Route path='/adminonglist'>
+            <AdminOngList 
             />
           </Route>
           <Route path='/adminlist'>
@@ -86,8 +90,20 @@ function App() {
             
             />
           </Route>
+          <Route path='/onglist'>
+            <OngList
+            
+            />
+          </Route>
+          <Route path='/ongprofile'>
+            <OngProfile
+            
+            />
+          </Route>
           <Route path='/'>
-            Este es el inicio
+            <Home
+
+            />
           </Route>
         </Switch>
       </div>

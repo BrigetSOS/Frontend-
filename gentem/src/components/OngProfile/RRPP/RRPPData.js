@@ -20,32 +20,32 @@ class RRPPData extends Component {
                                 <div className='ongProfile__images--container'>    
                                     <div className='ongProfile__container--card'>
                                             <div className='ongProfile__card--img'>
-                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             </div>
                                     </div>
                                     <div className='ongProfile__container--card'>
                                             <div className='ongProfile__card--img'>
-                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             </div>
                                     </div>
                                     <div className='ongProfile__container--card'>
                                             <div className='ongProfile__card--img'>
-                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             </div>
                                     </div>
                                     <div className='ongProfile__container--card'>
                                             <div className='ongProfile__card--img'>
-                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             </div>
                                     </div>
                                     <div className='ongProfile__container--card'>
                                             <div className='ongProfile__card--img'>
-                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             </div>
                                     </div>
                                     <div className='ongProfile__container--card'>
                                             <div className='ongProfile__card--img'>
-                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                                <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ class RRPPData extends Component {
                                 <div className='ongProfile__images--container'>
                                     <div className='ongProfile__container--card'>
                                         <div className='ongProfile__card--img'>
-                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             <p className='ongProfile__card--details'>
                                             Descripción de campaña puede tener muchos...
                                             </p>
@@ -70,7 +70,7 @@ class RRPPData extends Component {
                                     </div>
                                     <div className='ongProfile__container--card'>
                                         <div className='ongProfile__card--img'>
-                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             <p className='ongProfile__card--details'>
                                             Descripción de campaña puede tener muchos...
                                             </p>
@@ -78,7 +78,7 @@ class RRPPData extends Component {
                                     </div>
                                     <div className='ongProfile__container--card'>
                                         <div className='ongProfile__card--img'>
-                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             <p className='ongProfile__card--details'>
                                             Descripción de campaña puede tener muchos...
                                             </p>
@@ -86,7 +86,7 @@ class RRPPData extends Component {
                                     </div>
                                     <div className='ongProfile__container--card'>
                                         <div className='ongProfile__card--img'>
-                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             <p className='ongProfile__card--details'>
                                             Descripción de campaña puede tener muchos...
                                             </p>
@@ -94,7 +94,7 @@ class RRPPData extends Component {
                                     </div>
                                     <div className='ongProfile__container--card'>
                                         <div className='ongProfile__card--img'>
-                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             <p className='ongProfile__card--details'>
                                             Descripción de campaña puede tener muchos...
                                             </p>
@@ -102,7 +102,7 @@ class RRPPData extends Component {
                                     </div>
                                     <div className='ongProfile__container--card'>
                                         <div className='ongProfile__card--img'>
-                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1'/>
+                                            <img src='https://fakeimg.pl/50x50/bebebe/eae0d0/?retina=1' alt=''/>
                                             <p className='ongProfile__card--details'>
                                             Descripción de campaña puede tener muchos...
                                             </p>
