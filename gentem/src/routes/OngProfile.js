@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class OngList extends Component {
+class OngProfile extends Component {
     // constructor(props) {
     //     super(props);
     //     this.state = {  }
@@ -8,10 +8,10 @@ class OngList extends Component {
     render() { 
         return ( 
             <div>
-                Esto es el OngList
+                Esto es el OngProfile
             </div>
          );
     }
 }
  
-export default OngList;
+export default OngProfile;

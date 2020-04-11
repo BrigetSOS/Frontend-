@@ -9,7 +9,7 @@ class Choose extends Component {
     render() { 
         return ( 
             <footer className="footer">
-                 <NavLink to='/onglist' activeClassName='activo'>
+                 <NavLink to='/adminonglist' activeClassName='activo'>
                 <div className="footer__ong">
                     <span className="bl-2"></span>                   
                     <p>

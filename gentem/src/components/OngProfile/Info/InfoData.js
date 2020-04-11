@@ -16,13 +16,13 @@ class InfoData extends Component {
                             <p>
                                 Logo
                             </p>
-                            <img src='https://fakeimg.pl/90x40/bebebe/eae0d0/?retina=1' />
+                            <img src='https://fakeimg.pl/90x40/bebebe/eae0d0/?retina=1' alt=''/>
                         </div>
                         <div className='ongProfile__Data pb-2 pt-2'>
                             <p>
                                 Imagen<br/>
                                 Portada                            </p>
-                                <img src='https://fakeimg.pl/90x40/bebebe/eae0d0/?retina=1' />
+                                <img src='https://fakeimg.pl/90x40/bebebe/eae0d0/?retina=1' alt=''/>
                         </div>
                          <div className='ongProfile__Data pb-2 pt-2'>
                             <p>
